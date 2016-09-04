@@ -10,6 +10,7 @@
 
 ### Posts
 
+- [From REST to GraphQL](https://0x2a.sh/from-rest-to-graphql-b4e95e94c26b#.aoy0xi4j4)
 - [GraphQL explained | Jonas Helfe](https://medium.com/apollo-stack/graphql-explained-5844742f195e)
 - [GraphQL mutations](https://medium.com/@HurricaneJames/graphql-mutations-fb3ad5ae73c4)
 - [GraphQL: The next generation of API design](https://medium.com/apollo-stack/graphql-the-next-generation-of-api-design-f24b1689756a)

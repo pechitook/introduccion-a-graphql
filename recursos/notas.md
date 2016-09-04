@@ -2,13 +2,13 @@
 
 Creado por el equipo mobile de Facebook en 2012.
 
-Query Language que se para sobre el backend. Es una _API layer_, como REST. NO es un acceso directo a la DB.
+- Query Language que se para sobre el backend. Es una _API layer_, como REST. NO es un acceso directo a la DB.
 
-- You don’t connect GraphQL directly to your backend or database. It’s an API layer, just like REST.
-- GraphQL intentionally doesn’t include built-in filtering, sorting, computations, or joins. You carefully design all of those yourself to fit the needs of the API consumer, just like REST.
-- GraphQL can be layered over multiple backends and databases, without the client being aware of where the data is coming from, just like REST.
+GraphQL es un estándar muy específico, diseñado desde el vamos para permitir fácilmente describir, entender y obtener datos con un lenguaje en común.
 
-GraphQL is a well-specified standard designed from the ground up to enable people to easily describe, understand, and retrieve their data with a shared language.
+- Type System
+- Instrospection
+- Execution
 
 ## Por qué GraphQL?
 
@@ -70,6 +70,8 @@ Es la manera de dar acceso a nuestros datos. Son análogos a los endpoints de RE
 
 En este ejemplo, definimos dos queries: una para acceder a un Post por id, y otra para obtener la colección entera.
 
+**resolve() puede devolver una Promise**
+
 ```
 const Query = new GraphQLObjectType({
   name: 'Queries',
@@ -93,7 +95,6 @@ const Query = new GraphQLObjectType({
 ```
 
 ### Scalar Types
-
 
 ### Type Definitions
 
@@ -158,17 +159,9 @@ mutation {
 
 ### A investigar
 
-- Por qué las mutations necesitan tener un nombre? Si no tienen, GraphiQL tira este error
-
-```
-{
-  "errors": [
-    {
-      "message": "Unknown operation named \"undefined\"."
-    }
-  ]
-}
-```
-
 - Cómo crear un Query con múltiples fields de diferentes archivos? Organización, mejores prácticas
 - Scalability?
+- Qué son el `root` que recibe el resolve de un query y `value` que recibe el de una mutation?
+- Diferentes librerías para clientes de JS: AngularJS, React (Apollo), Ember, iOS, Android
+- Librerías para backend: Python, Ruby, PHP
+- Branch con el autor para livecodearlo
