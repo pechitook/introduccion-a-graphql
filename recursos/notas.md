@@ -1,6 +1,6 @@
 ## Qué es GraphQL
 
-Creado por el equipo mobile de Facebook en 2012.
+Creado por el equipo mobile de Facebook en 2012. Como su implementación estaba escriba en Hack (una modificación de PHP), decidieron escribir una especificación y publicarla junto con una implementación de ejemplo en Javascript a mediados de 2015.
 
 - Query Language que se para sobre el backend. Es una _API layer_, como REST. NO es un acceso directo a la DB.
 
@@ -94,20 +94,6 @@ const Query = new GraphQLObjectType({
 })
 ```
 
-### Scalar Types
-
-### Type Definitions
-
-### Type Markers
-
-### Input Arguments
-
-### Interfaces
-
-### Unions
-
-### Enums
-
 ## Mutations
 
 Para crear un nuevo Post, lo primero que hay que hacer es crear un `GraphQLInputObjectType`, que es la estructura que va a recibir como input la mutación. En el caso de un Post, así quedaría el `PostInput`
@@ -152,16 +138,21 @@ mutation {
 }
 ```
 
-## Subscription
-
-
-### Error Handling
-
 ### A investigar
 
 - Cómo crear un Query con múltiples fields de diferentes archivos? Organización, mejores prácticas
+
+Rta: Apollo Stack tiene funciones helpers útiles para esto. [Ver acá](http://dev.apollodata.com/tools/graphql-tools/index.html)
+
 - Scalability?
 - Qué son el `root` que recibe el resolve de un query y `value` que recibe el de una mutation?
-- Diferentes librerías para clientes de JS: AngularJS, React (Apollo), Ember, iOS, Android
-- Librerías para backend: Python, Ruby, PHP
-- Branch con el autor para livecodearlo
+- Hacer un branch con el autor para livecodearlo
+- Fragments. Lo escucho mucho y no entiendo para qué sirven.
+
+Rta: Sirven para reusar el mismo código en distintas queries/mutations.
+
+### Lo que viene, anunciado [acá](https://www.youtube.com/watch?v=ViXL0YQnioU)
+
+- @defer (batch)
+- @stream
+- @live

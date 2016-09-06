@@ -7,6 +7,7 @@
 - [Syrus Akbary - A GraphQL Framework in Non-JS Servers](https://www.youtube.com/watch?v=RNoyPSrQyPs)
 - [GraphQL server tutorial for Node.js with SQL, MongoDB and REST](https://www.youtube.com/watch?v=PHabPhgRUuU)
 - [GraphQL San Francisco (meetups, videos recurrentes)](https://www.youtube.com/channel/UC0pEW_GOrMJ23l8QcrGdKSw/videos)
+- [GraphQL Future - react europe 16](https://www.youtube.com/watch?v=ViXL0YQnioU)
 
 ### Posts
 
@@ -15,6 +16,7 @@
 - [GraphQL mutations](https://medium.com/@HurricaneJames/graphql-mutations-fb3ad5ae73c4)
 - [GraphQL: The next generation of API design](https://medium.com/apollo-stack/graphql-the-next-generation-of-api-design-f24b1689756a)
 - [How Facebook organizes their GraphQL code](https://medium.com/apollo-stack/graphql-at-facebook-by-dan-schafer-38d65ef075af)
+- [State of Subscriptions in GraphQL](https://kadira.io/blog/graphql/subscriptions-in-graphql)
 
 ### Repos
 

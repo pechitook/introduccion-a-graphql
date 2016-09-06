@@ -12,7 +12,7 @@
 -> # GraphQL <-
 
 <br>
-▸ Query Language
+▸ Query Language - [Spec](https://facebook.github.io/graphql/)
 <br>
 ▸ Capa de abstracción sobre el backend
 <br>
@@ -38,7 +38,7 @@
 
 
 
--> # GraphiQL <-
+-> # GraphiQL - DEMO <-
 
 
 
@@ -55,18 +55,17 @@
 <br>
   ✓ Se envía sólo lo necesario               ✗ Suele enviarse información de más
 <br>
-  ✓ Toda la data viaja en un request         ✗ Múltiples por vista; custom endpoints
+  ✓ *1* request por vista                      ✗ Múltiples por vista; custom endpoints
 <br>
-  ✓ _Flexibilidad_
+  ✓ Fácil mantenimiento de versiones         ✗ Versionado implica múltiples codebases
+<br>
+  ✓ _Flexibilidad en el cliente_
 
 <br>
-▸ Schema                                   ▸ Resources
-<br>
-  ✓ Fuertemente tipado                       ✗ Tipado débil
-<br>
-
 ▸ Documentado por naturaleza               ▸ Documentación ajena al desarrollo
 
+<br>
+▸ Validación antes de ejecución
 
 
 ---
@@ -136,3 +135,87 @@
 ▸ [String]        *Lista de Strings nulleables*
 ▸ [String]!       *Lista _no_ nulleable de Strings _nulleables_*
 ▸ [String!]!      *Lista _no_ nulleable de Strings _no nulleables_*
+
+---
+
+
+
+
+# Librerías disponibles
+
+▸ Javascript
+▸ Ruby
+▸ PHP
+▸ Python
+▸ Java
+▸ C++
+▸ Go
+▸ Scala
+▸ .Net
+▸ Elixir
+▸ Haskell
+▸ Lua
+▸ PostgreSQL
+
+---
+
+
+
+
+# Clientes disponibles en JS
+
+<br>
+▸ Relay           *Oficial de FB. Sólo React. API compleja.*
+
+<br>
+▸ Adrenaline      *Alternativa a Relay, API más simple.*
+
+<br>
+▸ Apollo          *Enfocado en React pero usable en otros fw*
+
+
+---
+
+
+
+
+# Bonus track: Apollo Server
+
+<br>
+▸ Nos permite usar la _Shorthand Notation_
+
+<br>
+▸ Mocking
+
+<br>
+▸ Mejor estructura
+
+---
+
+
+
+
+# GraphQL as a service
+
+▸ Reindex.io      
+▸ Graph.cool
+
+---
+
+
+
+
+# Recursos
+
+<br>
+▸ github.com/p4bloch/introduccion-a-graphql
+
+<br>
+▸ Slack GraphQL & Apollo
+
+<br>
+▸ React Conf Youtube
+
+<br>
+▸ Apollo Stack en Youtube
+▸ medium.com/apollo-stack
