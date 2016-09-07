@@ -1,29 +1,23 @@
-import { getAuthorById } from './authors'
-
 const posts = []
 
 posts.push({
   id: 1,
-  title: 'Primer post',
-  author: getAuthorById(1)
+  title: 'Primer post'
 })
 
 posts.push({
   id: 2,
-  title: 'Segundo post',
-  author: getAuthorById(2)
+  title: 'Segundo post'
 })
 
 posts.push({
   id: 3,
-  title: 'Tercer post',
-  author: getAuthorById(3)
+  title: 'Tercer post'
 })
 
 posts.push({
   id: 4,
-  title: 'Cuarto post',
-  author: getAuthorById(4)
+  title: 'Cuarto post'
 })
 
 export const getPostById = (id) => posts.find(p => p.id === id)
