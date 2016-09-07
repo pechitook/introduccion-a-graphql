@@ -18,11 +18,13 @@
 <br>
 ▸ API pensada desde el cliente
 <br>
+▸ Creado por equipo mobile de FB en 2009.
+<br>
+▸ Open source desde Feb 2015.
 
 
 
-
-
+<br>
 -> ## ¿Por qué el servidor tiene que saber qué datos necesita una vista?
 
 ---
@@ -141,6 +143,13 @@
 
 
 
+# Ecosistema en GraphQL
+
+---
+
+
+
+
 # Librerías disponibles
 
 ▸ Javascript
@@ -199,6 +208,22 @@
 
 ▸ Reindex.io      
 ▸ Graph.cool
+
+---
+
+
+
+
+# Lo que viene, lo que viene
+
+<br>
+▸ *@defer* (batch)
+
+<br>
+▸ *@stream* (primero la data más importante)
+
+<br>
+▸ *@live* (subscriptions)
 
 ---
 
