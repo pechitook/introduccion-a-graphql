@@ -145,8 +145,10 @@ mutation {
 Rta: Apollo Stack tiene funciones helpers útiles para esto. [Ver acá](http://dev.apollodata.com/tools/graphql-tools/index.html)
 
 - Scalability?
+
+Caching server side: [DataLoader](https://github.com/facebook/dataloader) [explicado](http://gajus.com/blog/9/using-dataloader-to-batch-requests)
+
 - Qué son el `root` que recibe el resolve de un query y `value` que recibe el de una mutation?
-- Hacer un branch con el autor para livecodearlo
 - Fragments. Lo escucho mucho y no entiendo para qué sirven.
 
 Rta: Sirven para reusar el mismo código en distintas queries/mutations.

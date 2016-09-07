@@ -17,6 +17,7 @@
 - [GraphQL: The next generation of API design](https://medium.com/apollo-stack/graphql-the-next-generation-of-api-design-f24b1689756a)
 - [How Facebook organizes their GraphQL code](https://medium.com/apollo-stack/graphql-at-facebook-by-dan-schafer-38d65ef075af)
 - [State of Subscriptions in GraphQL](https://kadira.io/blog/graphql/subscriptions-in-graphql)
+- [Event-stream based GraphQL subscriptions](https://gist.github.com/OlegIlyenko/a5a9ab1b000ba0b5b1ad)
 
 ### Repos
 
